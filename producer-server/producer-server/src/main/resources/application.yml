@@ -1,0 +1,7 @@
+server:
+    port: 9202
+spring:
+    application:
+        name: book-service
+    zipkin:
+        base-url: http://127.0.0.1:9411/
